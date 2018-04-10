@@ -1,6 +1,7 @@
+import pytube
+import os
+
 while True:
-    import pytube
-    import os
 
     if not os.path.exists('D:/Download-YouTube Videos'):
         os.makedirs('D:/Download-YouTube Videos')
@@ -50,3 +51,5 @@ while True:
         continue
     else:
         break
+
+print("Video Saved in - D:/Download-YouTube Videos")
